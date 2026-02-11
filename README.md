@@ -1,2 +1,2 @@
 # project-kalops
-cuma buat tugas akhir website sekolah
+just for school project
