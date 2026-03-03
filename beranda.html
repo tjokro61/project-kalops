@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en_US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prototype 1.1</title>
+  <link rel="stylesheet" href="imitasi.css">
+  <link rel="icon" type="jpeg" href="aset/stark.jpeg">
+</head>
+<body>
+  <!--untuk navigasi-->
+   <nav>
+  <div class="wrapper">
+    <div class="logo">
+      <a href="#"><img src="KP.png" width="100" height="80"> </a>
+    </div>
+    <ul class="menu">
+      <li><a href="#"><button class="btn">Beranda</button> </a></li>
+      <li><a href="daftarisi.html"><button class="btn">Daftar Isi</button></a></li>
+      <li><a href="profil.html"><button class="btn">Profil</button></a></li>
+    </ul>
+  </div>
+</nav>
+
+<a href="https://www.kernel.org" target="_blank"><img src="aset/tux.png" class="sidebar" title="tekan aku!"></a>
+
+  <div class="wrapper">
+  <!--konten-->
+  <section id="linux">
+    <div class="list">
+      <h2>Apa itu Linux?</h2>
+      <p>
+        Linux adalah sistem operasi mirip Unix yang dibuat oleh Linus Torvalds, mahasiswa universitas<br>
+        Helsinki. Linux adalah penggambaran dari Linus yang frustrasi karena MINIX(buatan profesor pebimbingnya)<br>
+        tidak bebas diubah seenak hati dan UNIX(buatan lab AT&T) yang tertutup serta berlisensi.<br>
+        Karena hal itu, dia menciptakan sistem operasi yang sepenuhnya terbuka dan gratis untuk umum.<br>
+      </p>
+      <a href="https://id.wikipedia.org/wiki/Linus_Torvalds" target="_blank"><img src="aset/LinusTorvalds_2016-embed.jpg" alt="linus Torvalds" title="Linus Torvalds" id="linus"></a>
+    </div>
+  </section>
+
+  <section id="istilah">
+    <div class="list">
+    <h2>Istilah yang Perlu dipahami</h2>
+    <p>
+      ada 3 istilah yang perlu dipahami terlebih dahulu, yaitu:<br>
+      <ol>
+        <li>Linux kernel</li>
+        <li>GNU/Linux</li>
+        <li>Distro</li>
+      </ol>
+    </p>
+    <p>
+      Linux kernel adalah salah satu program yang menghubungkan sistem operasi dengan hardware<br>
+      GNU/Linux adalah hasil dari penggabungan Linux kernel dengan software GNU ciptaan Richard Stallman.<br>
+      kenapa harus digabung? karena kita tidak bisa berinteraksi dengan kernel secara langsung dan membutuhkan<br>
+      tools untuk menjalankan kernel. seiring waktu, orang biasa memanggilnya Linux agar mudah diucapkan.<br>
+      sedangkan distro adalah hasil penggabungan GNU dengan Linux yang dilakukan oleh seseorang atau tim untuk disebarluaskan<br>
+    </p>
+    <p> 
+      karena kodenya terbuka dan bebas dimodifikasi, banyak distro berkeliaran hari ini bahkan mencapai ratusan.<br>
+      untuk melihat distro sekaligus melihat distro mana yang terkenal bisa dilihat lewat <a href="https://distrowatch.com/dwres.php?resource=popularity">distrowatch.</a>
+      tetapi, jika anda hanya ingin melihat distro yang terkenal maka saya bisa menunjukkannya.<br>
+    </p>
+    </div>
+  </section>
+
+  <section id="distro">
+    <div class="list">
+      <h2>Distro yang Terkenal</h2>
+      <p>Disini yang menjadi kriteria adalah distro yang sering dipakai menjadi desktop dan menjadi banyak dasar distro<br>
+        sekarang karena pada dasarnya hampir semua distro adalah keturunan dari distro yang sudah ada duluan.<br>
+        tanpa berlama-lama lagi, ayo kita bahas.<br>     
+      </p>
+    </div>
+  </section>
+
+  <section id="ubuntu">
+    <div class="list">
+      <h3>Ubuntu</h3>
+       <a href="https://ubuntu.com" target="_blank"><img src="aset/Ubuntu-logo-2022.svg" alt="logo ubuntu" title="logo ubuntu" class="ubn"></a>
+      <p>
+        Ubuntu adalah distro buatan perusahaan bernama canonical yang berpusat di London, Inggris. Banyak distro hari ini<br>
+        yang menjadikan ubuntu menjadi dasar sistem operasi mereka. Beberapa contoh yang menjadikan ubuntu menjadi dasar adalah<br>
+        Linux Mint, Pop!_OS, Zorin OS, dll.<br> 
+      </p>
+    </div>
+  </section>
+
+  <section id="fedora">
+    <div class="list">
+      <h3>Fedora</h3>
+      <a href="https://www.fedoraproject.org"><img src="aset/Fedora-logo-800.png" alt="logo fedora" title="logo fedora" class="foto"></a>
+      <p>
+        Fedora adalah projek yang didirikan tahun 2003 setelah penggabungan fedora projek dengan <i>red hat linux</i>(RHL).<br>
+        hasil penggabungan ini menghasilkan sistem operasi yang <i>powerfull</i> karena apapun yang menjadi default di fedora<br>
+        akan manjadi default secara umum di distro lain. Turunan dari fedora antara lain; Bazzite, CentOS, Rocky Linux, dll.<br>
+      </p>
+    </div>
+  </section>
+
+  <section id="debian">
+    <div class="list">
+      <h3>Debian</h3>
+      <a href="https://debian.org" target="_blank"><img src="aset/Debian_logo.png" alt="logo debian" title="logo debian" id="deb"></a>
+      <p>
+        Debian adalah distro yang terkenal dan berpengaruh karena kestabilannya serta package manager tool(APT) yang hebat<br>
+        sehingga digunakan di banyak sekali distro hingga hari ini. Tetapi debian mempunyai kelemahan yaitu pada UI yang terkesan<br>
+        jadul sehingga sering dikombinasikan dengan ubuntu. contoh distronya adalah MX Linux, PikaOS, AnduinOS, dll<br>
+      </p>
+    </div>
+  </section>
+
+  <section id="arch">
+    <div class="list">
+      <h3>Arch</h3>
+      <a href="https://archlinux.org" target="_blank"><img src="aset/Archlinux-logo-standard-version.png" title="I use Arch BTW" alt="I use Arch BTW" class="foto"></a>
+      <p>
+        Arch Linux adalah distro yang terkenal akan kesusahan dalam penginstalan karena semua dilakukan secara manual dari<br>
+        package sampai desktop environment. tapi arch memiliki keunggulan, yaitu kendali penuh akan komputer karena semua hal<br>
+        yang diinstal adalah package yang kita mau dan bukan bloatware bawaan sistem operasi. selain itu, arch juga dikenal karena<br>
+        ringan sehingga banyak digunakan di distro yang mempunyai kecepatan respon cepat. contoh distro turunannya yaitu; <br>
+        CachyOS, EndeavorOS, Manjaro Linux, dll<br>  
+      </p>
+    </div>
+  </section>
+
+  <arcticle id="immutable">
+    <div class="list">
+      <h2>Distro Immutable</h2>
+      <p>
+        Distro immutable adalah distro yang menerapkan prinsip read-only pada sistemnya. Artinya, kita sebagai user tidak bisa<br>
+        mengubah apapun pada sistem utamanya. Tujuannya supaya sistem yang dipakai tetap bersih seperti semula tanpa pengotor<br>
+        berbeda dengan distro tradisional sebelumnya. distro immutable biasanya memiliki prinsip sendiri dan berbeda dengan distro<br>
+        tradisional yang hanya berbeda tema. Untuk lebih paham, mari kita lihat beberapa distro immutable berikut ini.<br>
+      </p>
+    </div>
+  </arcticle>
+
+  <section id="atomic">
+    <div class="list">
+      <h3>Fedora Atomic</h3>
+      <a href="https://www.fedoraproject.org" target="_blank"><img src="aset/images.jpeg" title="fedora atomic" alt="logo fedora atomic" id="atm"></a>
+      <p>
+        fedora atomic adalah distro immutable milik fedora yang datang dengan membawa prinsip software bebas seperti sebelumnya<br>
+        dengan 5 varian, yaitu:<br>
+        <ol>
+          <li>fedora silverblue</li>
+          <li>fedora kinoite</li>
+          <li>fedora sway atomic</li>
+          <li>fedora budgie atomic</li>
+          <li>fedora cosmic atomic</li>
+        </ol>
+      </p>
+    </div>
+  </section>
+
+  <section id="ublue">
+    <div class="list">
+      <h3>Universal Blue</h3>
+      <a href="https://universal-blue.org" target="_blank"><img src="aset/ublue-mini.svg" title="logo ublue" alt="logo universal blue" id="bl"></a>
+      <p>
+        Universal Blue adalah distro yang masih memiliki hubungan dengan fedora atomic tapi memiliki kelengkapan driver tertutup<br>
+        (seperti NVIDIA) di dalam sistem operasinya. Universal blue juga memiliki command ujust(universal just) yang membantu dalam terminal sehingga
+        bisa langsung pakai tanpa pusing. universal blue memliki 3 varian, yaitu:<br>
+        <ol>
+          <li>Bazzite</li>
+          <li>Aurora</li>
+          <li>Bluefin</li>
+        </ol>
+      </p>
+    </div>
+  </section>
+
+  <section id="nix">
+    <div class="list">
+     <h3>NixOS</h3>
+     <a href="https://nixos.org" target="_blank"><img src="aset/NixOS_logo.svg" title="logo Nix" alt="logo NixOS" class="foto"></a>
+     <p>
+      NixOS adalah distro yang memiliki pendekatan yang sangat unik untuk mencapai kestabilan dalam immutable, yakni dengan mengunakan<br>
+      pendekatan matematika/kode yang dapat diketik melalui configuration.nix dengan cara yang sama seperti programming tetapi<br>
+      memakai bahasa pemrograman NixOS.
+     </p>
+    </div>
+  </section>
+
+  <section id="suse">
+    <div class="list">
+      <h3>OpenSUSE</h3>
+      <a href="https://opensuse.org" target="_blank"><img src="aset/OpenSUSE_Logo.svg.png" title="pura-pura nggak liat" alt="bunglon" class="foto"></a>
+      <p>
+        OpenSUSE memiliki varian immutable lewat MicroOS yang dibranding ulang lewat openSUSE Aeon untuk GNOME dan openSUSE Kalpa<br>
+        untuk KDE plasma. openSUSE memiliki fitur unik bernama snapshot dimana file "difoto" dan jika terjadi kesalahan maka bisa<br>
+        melakukan rollback dengan mudah.<br>
+      </p>
+    </div>
+  </section>
+  </div>
+  <script src="jawa.js"></script>
+
+  <!--bagian kaki-->
+<footer id="kontak" class="page">
+  <div class="wrapper footer-content">
+    <div>
+      <h3><a href="https://youtu.be/dQw4w9WgXcQ?si=BsCOEwPBGWKtzLz7" target="_blank">Kontak</a><h3>
+    </div>
+
+    <div>
+      <h2>Kelompok</h2>
+      <ol>
+        <li>Haidar Hiromasa Ito</li>
+        <li>Hafidz Al Buchori</li>
+      </ol>
+    </div>
+    
+  </div>
+</footer>
+
