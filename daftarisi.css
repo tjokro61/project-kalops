@@ -1,0 +1,217 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+button:hover {
+    color: black;
+}
+
+button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+    border-bottom: none;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: none;
+    padding: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+nav .wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+    width: 100%;
+}
+
+.wrapper {
+    width: 160px;
+    margin: 50px;
+    position: relative;
+}
+
+nav .logo {
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+body {
+    background-color: #F9F6EE;
+}
+
+#daftarisi {
+    margin-top: 30px;
+    scroll-margin-top: 150px;
+    background-color: #c8ddff;
+    border-radius: 12px;
+    padding: 20px;
+    border: 3px solid #5083d9;
+    line-height: 16px;
+    font-size: 20px;
+}
+
+#daftarisi .isi {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 30px 20px;
+    padding-bottom: 200px;
+}
+
+#daftarisi ul {
+    margin: 20px 0;
+    padding-left: 0;
+}
+
+#daftarisi > ul > li {
+    margin-bottom: 14px;
+}
+
+#daftarisi ul ul {
+    margin: 12px 0 18px 25px;
+}
+
+#daftarisi ul ul li {
+    margin-bottom: 10px;
+}
+
+#daftarisi li {
+    list-style: none;
+}
+
+.custom {
+    list-style: none;
+    padding-left: 0;
+}
+
+.custom li {
+    position: relative;
+    display: flex;
+    align-items: center;   /* ikon + teks sejajar tengah */
+    gap: 10px;
+    padding-left: 0;
+    margin-bottom: 12px;
+}
+
+.custom li::before {
+    content: "";
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.custom li.linux::before {
+    background-image: url("aset/tux.png");
+}
+
+.custom li.ubuntu::before {
+    background-image: url("aset/ubuntu.png");
+}
+
+.custom li.fedora::before {
+    background-image: url("aset/fedora.png")
+}
+
+.custom li.debian::before {
+    background-image: url("aset/debian.png")
+}
+
+.custom li.arch::before {
+    background-image: url("aset/arch.svg")
+}
+
+.custom li.atom::before {
+    background-image: url("aset/atom.png")
+}
+
+.custom li.ublue::before {
+    background-image: url("aset/ublue.svg")
+}
+
+.custom li.nix::before {
+    background-image: url("aset/nix.png")
+}
+
+.custom li.suse::before {
+    background-image: url("aset/SUSE.png")
+}

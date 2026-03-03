@@ -1,0 +1,205 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn {
+    width: 6.5em;
+    height: 2.3em;
+    margin: 0.5em;
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 0.625em;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+button:hover {
+    color: black;
+}
+
+button:after {
+    content: "";
+    background: white;
+    position: absolute;
+    z-index: -1;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s;
+}
+
+button:hover:after {
+    transform: skewX(-45deg) scale(1, 1);
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+    border-bottom: none;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: none;
+    padding: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .wraper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+    width: 100%;
+}
+
+.wrapper {
+    width: 160px;
+    margin: 50px;
+    position: relative;
+}
+
+nav .logo {
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+.wrapper {
+    margin: auto;
+    position: relative;
+    width: 1110px;
+    padding-top: 40px;
+}
+
+.atas {
+    margin: 15px;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.bawah {
+    margin: 15px;
+    line-height: 30px;
+}
+
+.atas ol li {
+    font-size: 20px;
+    margin-left: 38px
+}
+
+.bawah ol li {
+    font-size: 20px;
+    margin-left: 38px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+img {
+    margin-top: 15px;
+}
+
+/* From Uiverse.io by McHaXYT */ 
+.button-container {
+  display: flex;
+  gap: 1.5rem;
+  margin-left: 450px;
+  margin-top: 30px;
+}
+
+.button {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #2d2e32;
+  border: 2px solid #2d2e32;
+  transition: all 0.45s;
+}
+
+.button:hover {
+  transform: rotate(360deg);
+  transform-origin: center center;
+  background-color: #ffff;
+  color: #2d2e32;
+}
+
+.button:hover .btn-svg {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(305deg)
+    brightness(103%) contrast(103%);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+    margin: auto;
+    background-color: #777777a7;
+    padding: 60px;
+    margin-top: 30px;
+}
+
+.konten {
+    margin-left: 700px;
+    margin-top: 30px;
+}
